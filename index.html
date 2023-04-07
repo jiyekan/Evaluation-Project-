@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Course Select</title>
+  </head>
+  <body>
+    <header class="header-container">
+      <h1 class="header-title">Course Select Page</h1>
+    </header>
+
+    <div class="main-container">
+      <div class="selection-container">
+        <!-- available-course-container -->
+        <div class="available-courses-container">
+          <div class="available-courses-title-container">
+            <h2>Avaiable Courses</h2>
+          </div>
+          <div class="available-courses-content-container"></div>
+        </div>
+
+        <!-- selected-courses-container -->
+        <div class="selected-courses-container">
+          <div class="selected-courses-title-container">
+            <h2>Selected Courses</h2>
+          </div>
+          <div class="available-courses-content-container"></div>
+        </div>
+      </div>
+
+      <!-- info-display-container -->
+      <div class="info-display-container">
+        <div class="credit-display-container">
+          <p>Total Credit: <span class="credit"></span></p>
+        </div>
+        <div class="select-btn-container">
+          <button class="btn-select">Select</button>
+        </div>
+      </div>
+    </div>
+
+    <script defer src="./api.js"></script>
+    <script defer src="./index.js"></script>
+  </body>
+</html>
