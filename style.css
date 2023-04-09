@@ -17,7 +17,7 @@
 }
 
 .selected {
-    background-color:blue;
+    background-color:rgb(76, 76, 249);
 }
 
 .available-courses-container,
@@ -31,37 +31,24 @@
 }
 
 .course-elem{
-    border-top: 1px solid black;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-}
-
-.course-elem-btn{
-    display: block;
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    margin: 0;
+    border-bottom: 1px solid black;
     cursor: pointer;
-    text-decoration: none; 
-    border: none;
+    text-align: center;
     font-size: 12px;
 }
 
 .available-courses-title-container{
-    border-top: 1px solid black;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
     text-align: center;
     font-size: 12px;
     font-weight: bord;
+    border-bottom: 1px solid black;
 }
 
 .selected-courses-title-container{
-    border-bottom: 1px solid black;
     font-size: 12px;
     font-weight: bord;
     text-align: center;
+    border-bottom: 1px solid black;
 }
 
 
@@ -76,5 +63,6 @@
     align-items: center;
     text-decoration: none;
     margin-top: 18px;
+    margin-left: 10px;
 }
 
