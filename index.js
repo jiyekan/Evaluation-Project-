@@ -98,7 +98,7 @@ class CourseSelectModel {
         console.log("updateClicked: Entered");
         const curCourse = this.courses[courseId - 1];
         console.log(curCourse);
-        console.log(curCourse.isSelected)
+        // console.log(curCourse.isSelected)
         if(curCourse.isSelected){
             this.totalCreditsSelected -= curCourse.credit;
             const index = this.selectedCourses.indexOf(curCourse);
@@ -113,8 +113,8 @@ class CourseSelectModel {
                 curCourse.isSelected = true;
             }
         }
-        console.log(this.selectedCourses);
-        console.log(this.totalCreditsSelected);
+        // console.log(this.selectedCourses);
+        // console.log(this.totalCreditsSelected);
     }
 }
 
